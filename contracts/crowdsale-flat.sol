@@ -509,8 +509,8 @@ contract Crowdsale is Context, ReentrancyGuard {
         require(wallet != address(0), "Crowdsale: wallet is the zero address");
         require(address(token) != address(0), "Crowdsale: token is the zero address");
 
-        _rate = 100;
-        _wallet = 0xe978D4535C3A796D0f4c12451e92612e1F002268;
+        _rate = (insert your own rate here!);
+        _wallet = (insert beneficiary wallet here!);
         _token = token;
     }
 
